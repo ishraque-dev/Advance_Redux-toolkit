@@ -7,5 +7,5 @@ const store = configureStore({
     cart: cartSlice.reducer,
   },
 });
-
+console.log('some changes');
 export default store;
